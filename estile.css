@@ -1,0 +1,13 @@
+.imagem-cachorro {
+	width: 300px; /* largura da imagem */
+	height: 300px; /* altura da imagem */
+	border-radius: 50%; /* borda arredondada */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* sombra */
+	margin: 20px auto; /* margem */
+}
+
+.imagem-cachorro img {
+	width: 100%; /* largura da imagem */
+	height: 100%; /* altura da imagem */
+	object-fit: cover; /* ajustar a imagem para cobrir o container */
+}
